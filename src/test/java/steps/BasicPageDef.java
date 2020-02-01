@@ -10,4 +10,13 @@ public class BasicPageDef {
         basicPage.clickButton(arg);
     }
 
+    @Then("Click {string} button span")
+    public void clickButtonSpan(String arg) {
+        basicPage.clickButtonSpan(arg);
+    }
+
+    @Then("Content with {string} visible")
+    public void contentIsVisible(String arg) {
+        basicPage.contentIsVisible(arg);
+    }
 }
