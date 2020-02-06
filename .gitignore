@@ -26,3 +26,6 @@ hs_err_pid*
 .idea
 automationTests.iml
 build
+.allure
+allure-results
+/target
